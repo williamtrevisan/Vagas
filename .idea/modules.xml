@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/cadmax_project.iml" filepath="$PROJECT_DIR$/.idea/cadmax_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Vagas.iml" filepath="$PROJECT_DIR$/.idea/Vagas.iml" />
     </modules>
   </component>
 </project>
