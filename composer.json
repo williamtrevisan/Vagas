@@ -1,0 +1,8 @@
+{
+  "name": "myproject/vendas",
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/"
+    }
+  }
+}
