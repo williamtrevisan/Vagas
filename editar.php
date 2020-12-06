@@ -5,6 +5,10 @@ require __DIR__.'/vendor/autoload.php';
 define('TITLE','Editar vaga');
 
 use \App\Entity\Vaga;
+use \App\Session\Login;
+
+//OBRIGA O USUÁRIO A ESTAR LOGADO;
+Login::requireLogin();
 
 //VALIDAÇÃO DO ID
 $undefinedId = !isset($_GET['id']);
@@ -15,14 +19,13 @@ if($undefinedId or $Idnotnumeric){
     exit;
 }
 
-
 //CONSULTA A VAGA
 $obVaga = Vaga::getVaga($_GET['id']);
 
 //VALIDAÇÃO DA VAGA
-$IsNotAInstanceOfVaga = !$obVaga instanceof Vaga;
+$VagaDontExists = !$obVaga instanceof Vaga;
 
-if($IsNotAInstanceOfVaga){
+if($VagaDontExists){
     header('location: index.php?status=error');
     exit;
 }

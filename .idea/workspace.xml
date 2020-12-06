@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeb64d08-6a7c-431d-b847-7a2b3ff90337" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/cadmax_project.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cadastrar.php" beforeDir="false" afterPath="$PROJECT_DIR$/cadastrar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/editar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excluir.php" beforeDir="false" afterPath="$PROJECT_DIR$/excluir.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,17 +46,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/App" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\Vagas\App" />
+      <recent name="D:\wamp64\www\Vagas" />
       <recent name="D:\wamp64\www\cadmax_project\Includes" />
       <recent name="D:\wamp64\www\cadmax_project" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\Vagas" />
       <recent name="D:\wamp64\www\cadmax_project\App\Views" />
       <recent name="D:\wamp64\www\cadmax_project" />
       <recent name="D:\wamp64\www\cadmax_project\App" />
@@ -80,6 +87,7 @@
       <workItem from="1607204866118" duration="6069000" />
       <workItem from="1607211468085" duration="20000" />
       <workItem from="1607211489194" duration="14000" />
+      <workItem from="1607211555069" duration="5840000" />
     </task>
     <servers />
   </component>
